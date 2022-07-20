@@ -1,0 +1,6 @@
+@startuml
+title "Simple DDD Architecture\n"
+
+[Application] -down-> [Domain]
+[Infrastructure] -up-> [Domain]
+@enduml
