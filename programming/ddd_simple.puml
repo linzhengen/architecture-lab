@@ -1,5 +1,5 @@
 @startuml
-title "Simple DDD Architecture\n"
+title "Simple DDD Architecture"
 
 [Application] -down-> [Domain]
 [Infrastructure] -up-> [Domain]

@@ -8,7 +8,7 @@ from diagrams.custom import Custom
 from diagrams.k8s.compute import Deployment, Pod, ReplicaSet
 
 with Diagram("GKE Architecture - Private Cluster", filename="gke", show=False):
-    internet = Custom("Internet", "./icons/internet.png")
+    internet = Custom("Internet", "icons/internet.png")
 
     with Cluster("Project"):
         dns = DNS("DNS")

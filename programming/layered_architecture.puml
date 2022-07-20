@@ -1,0 +1,7 @@
+@startuml
+title "Layered Architecture"
+
+[Interfaces] -down-> [Application]
+[Application] -down-> [Domain]
+[Domain] -down-> [Infrastructure]
+@enduml
