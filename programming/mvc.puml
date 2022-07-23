@@ -1,0 +1,11 @@
+@startuml
+title "MVC"
+:User: as User
+User -> [Routing]: Request
+[Routing] <-down-> [Controller]
+[Controller] <--> [Model]
+[Controller] <--> [View]
+[Model] <-> [DB]
+[View] -> User: Render
+
+@enduml
